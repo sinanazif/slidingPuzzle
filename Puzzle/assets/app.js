@@ -27,6 +27,7 @@ if (navigator.appVersion.indexOf("Chrome/") != -1) {
         td.setAttribute('class', 'cell');
         tr.appendChild(td);
         rowCells.push(td);
+        td.style.boxShadow = '1px 1px 12px 0px grey';
       }
     }
     return cells;
