@@ -90,7 +90,7 @@ function shuffle() {
   }
 }
 
-// game finish checking
+// checking is game done
 
 function gameOver() {
   var expectedValue = 1;
