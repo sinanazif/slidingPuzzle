@@ -1,4 +1,5 @@
-var size = 4;
+if (navigator.appVersion.indexOf("Chrome/") != -1) {
+  var size = 4;
 var fieldCells = createField();
 var values;
 var emptyX, emptyY;
@@ -90,7 +91,7 @@ function shuffle() {
   }
 }
 
-// checking is game done
+// game finish
 
 function gameOver() {
   var expectedValue = 1;
@@ -136,3 +137,7 @@ function init() {
 
 init();
 
+
+ }else{
+  alert('not chrome');
+ }
