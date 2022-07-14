@@ -49,7 +49,7 @@ if (navigator.appVersion.indexOf("Chrome/") != -1) {
         i++
       }
     }
-    v[emptyY][emptyX] = 0;
+    
     return v;
   }
 
